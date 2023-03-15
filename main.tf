@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 variable "prefix" {
-  default = "tfvmex"
+  default = "tfvmex-drift-detection-demo"
 }
 
 resource "azurerm_resource_group" "example" {
